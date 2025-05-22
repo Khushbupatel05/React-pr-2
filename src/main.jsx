@@ -6,7 +6,6 @@ import GithubApi from './assets/Components/GithubApi.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
-    
+    <App />  
   </StrictMode>,
 )

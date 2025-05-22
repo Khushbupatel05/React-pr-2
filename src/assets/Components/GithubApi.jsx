@@ -19,18 +19,20 @@ const GithubApi = () => {
 
   return (
     <React.Fragment>
-        <div className="container mx-auto my-14 text-center">
-            <input type="text" className='border-2 border-cyan-700 p-0.5 rounded' placeholder='Enter Api Name' onChange={(e)=> {
-              setuserName(e.target.value);
-            }} />
-            <button
-                type="button"
-                className="bg-cyan-700 text-white rounded ms-2 p-1 px-1.5"
-                onClick={() => setquery(userName)}
-                >
-                Search
-            </button>
-        </div> 
+            <h2 className="text-center my-5">Github Users Profile</h2>
+            <div className="container mx-auto">
+                <input type="text" className="border border-indigo-800" onChange={(e)=>{
+                    setuserName(e.target.value);
+                }}/>
+                <button type="button" className="bg-indigo-400 py-1 px-4 text-white rounded mx-3" onClick={()=>{
+                    setquery(userName);
+                }}>Click</button>
+            </div>
+
+            <div>
+                <h2>{userData.name}</h2>
+                <img src={userData.avatar_url} alt="" width={100} />
+            </div>
 
     </React.Fragment>
 
