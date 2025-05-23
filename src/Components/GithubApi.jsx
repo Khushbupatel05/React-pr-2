@@ -19,7 +19,7 @@ const GithubApi = () => {
         <React.Fragment>
             <div className="min-h-screen flex flex-col items-center justify-center bg-[#e4d9f7] p-6">
                 <div>
-                    <h1 className='text-fuchsia-400 font-semibold text-center text-4xl my-[24px]'>
+                    <h1 className='text-fuchsia-900 font-semibold text-center text-4xl my-[24px]'>
                         GitHub Username Search
                     </h1>
                 </div>
