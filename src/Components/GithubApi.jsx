@@ -68,7 +68,7 @@ const GithubApi = () => {
                         </div>
                         <div>
                             <p className="text-[22px] font-bold">{userData?.public_repos}</p>
-                            <p>Repos</p>
+                            <p> repository</p>
                         </div>
                     </div>
                 </div>
