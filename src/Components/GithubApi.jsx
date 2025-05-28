@@ -51,13 +51,13 @@ const GithubApi = () => {
                             onChange={(e) => setuserName(e.target.value)}
                         />
                         <button
-                            className="bg-fuchsia-900 py-1.5 px-3 text-white rounded hover:bg-fuchsia-800 mt-2"
+                            className="bg-fuchsia-900 py-1.5 px-3  text-white rounded hover:bg-fuchsia-800 mt-2"
                             onClick={() => setQuery(userName)}>
                             Search
                         </button>
                     </div>
 
-                    <div ref={captureRef} className='py-6 text-amber-50 '>
+                    <div ref={captureRef} className='py-6 text-amber-50 bg-[#ffff]  '>
                         <div className="flex justify-center mb-4" >
                             <div className="w-28 h-28 rounded-full border-4 border-yellow-400 p-1 bg-white" >
                                 <img
