@@ -57,7 +57,7 @@ const GithubApi = () => {
                         </button>
                     </div>
 
-                    <div ref={captureRef} className='py-6 text-amber-50 bg-[#ffff]  '>
+                    <div ref={captureRef} className='py-6 text-amber-50 bg-[#ffff] rounded-2xl '>
                         <div className="flex justify-center mb-4" >
                             <div className="w-28 h-28 rounded-full border-4 border-yellow-400 p-1 bg-white" >
                                 <img
