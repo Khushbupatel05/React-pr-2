@@ -51,7 +51,7 @@ const GithubApi = () => {
                             onChange={(e) => setuserName(e.target.value)}
                         />
                         <button
-                            className="bg-fuchsia-300 py-1 px-4 text-white rounded hover:bg-fuchsia-400 mt-2"
+                            className="bg-fuchsia-900 py-1.5 px-3 text-white rounded hover:bg-fuchsia-800 mt-2"
                             onClick={() => setQuery(userName)}>
                             Search
                         </button>
@@ -91,10 +91,10 @@ const GithubApi = () => {
                         </div>
                     </div>
 
-                    <div className="flex justify-center gap-6 mt-6">
+                    <div className="flex justify-center gap-2.5 mt-6">
                         <button
                             onClick={downloadCard}
-                            className="bg-fuchsia-300 hover:bg-fuchsia-200 text-white px-5 py-2 rounded-lg shadow-md"
+                            className="bg-fuchsia-900 hover:bg-fuchsia text-white   hover:bg-fuchsia-800 px-5 py-2 rounded-lg shadow-md"
                         >
                             Download
                         </button>
@@ -104,7 +104,7 @@ const GithubApi = () => {
                                 href={userData.html_url}
                                 target="_blank"
                                 rel=""
-                                className="bg-fuchsia-900 hover:bg-fuchsia text-white hover:text-black px-5 py-2 rounded-lg shadow-md transition flex items-center">
+                                className="bg-fuchsia-900 hover:bg-fuchsia text-white hover:bg-fuchsia-800 px-3 py-2 rounded-lg shadow-md transition flex items-center">
                                 <i className="fa-brands fa-github mr-2"></i> Visit GitHub
                             </a>
                         )}
